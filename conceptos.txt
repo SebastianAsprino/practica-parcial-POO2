@@ -1,0 +1,24 @@
+abstract base classes
+
+una clase abstracta es aquella que no puede ser identificadas como un objeto,
+pero si poseen caracteristicas que pueden ser heredadas por otras clases 
+funcionando la clase abstracta como la clase base. 
+
+decorators
+
+un decorador es una funcion que toma como entrada una funcion y a su vez 
+retorna una funcion, con la intencion de tener un codigo mas limpio de cara al usuario 
+
+exeptions
+
+es un objeto que trae python que se utilza para controlar errores y que en caso de 
+romperse el codigo este se siga ejecutando.
+
+operator overloading
+
+
+
+properties
+
+
+es un decorador que permite modificar un metodo para que sea un atributo.

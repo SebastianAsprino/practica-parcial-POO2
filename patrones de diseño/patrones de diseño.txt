@@ -1,0 +1,16 @@
+los patrones de diseño son soluciones reutilizables a problemas comunes
+son 3 tipos de categoria:
+-patrones creacionales:
+--Singleton: asegúrese de que sólo se crea una instancia de una claseyproporcione un punto de acceso global al objeto.
+--Factory (versión simplificada del método Factory): crea objetos sin exponer la lógica de creación de instancias al clienteyhace referencia al objeto recién creado a través de una interfaz común.
+--Abstract Factory: ofrece la interfaz para crear una familia de objetos relacionados, sin especificar explícitamente sus clases.
+--Prototipo: especifique los tipos de objetos que se van a crear mediante una instancia prototípica y cree nuevos objetos copiando este prototipo.
+-patrones de comportamiento:
+--Cadena de Responsabilidad- Evita adjuntar el remitente de una solicitud a su receptor, dando así a otros objetos la posibilidad de manejar la solicitud también.
+--Comando: encapsula una solicitud en un objeto, permite la parametrización de clientes con diferentes solicitudes y permite guardar las solicitudes en una cola.
+--Intérprete: dado un idioma, defina una representación para su gramática junto con un intérprete que use la representación para interpretar oraciones en el idioma / Asigne un dominio a un idioma, el idioma a una gramática y la gramática a un diseño jerárquico orientado a objetos.
+--Iterador: proporciona una forma de acceder a los elementos de un objeto agregado secuencialmente sin exponer su representación subyacente.
+-patrones estructural:
+--Adaptador: convierte la interfaz de una clase en otra interfaz que los clientes esperan. / El adaptador permite que las clases trabajen juntas, que de otro modo no podrían debido a interfaces incompatibles.
+--Puente: componga objetos en estructuras de árbol para representar jerarquías parciales y completas. / Composite permite a los clientes tratar objetos individuales y composiciones de objetos de manera uniforme.
+--Compuesto: componga objetos en estructuras de árbol para representar jerarquías de parte y todo. / Composite permite a los clientes tratar objetos individuales y composiciones de objetos de manera uniforme.
